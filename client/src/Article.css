@@ -1,0 +1,72 @@
+.artBlock {
+  padding: 0px;
+  margin: 10px;
+  font-size: 15px;
+  text-align: center;
+  background: rgba(0, 0, 150, 0.2);
+  border-style: solid;
+  width: 15vw;
+  height: 8.5vh;
+  /*float: left;*/
+  flex: 0 0 auto;
+}
+
+.article {
+    background: rgba(255, 255, 0, 0.2);
+    height: 75vh;
+}
+
+.artList {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.artBlock:hover {
+    background: rgba(0, 0, 150, 0.3);
+}
+
+.artListTitle {
+    margin: 0px;
+}
+
+.artBody {
+    height: 50vh;
+    width:40%;
+    margin-left: 30%;
+    margin-top: 5px;
+    border-style: solid;
+}
+
+.artBodyTitle {
+    font-size: 30px;
+    text-align: center;
+}
+
+.artBodyContent {
+    font-size: 20px;
+    text-align: left;
+    padding:10px;
+}
+
+pre {
+    display: block;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    height: 34vh;
+}
+
+.newArticle {
+    background-color: rgba(255, 0, 0, 0.3);
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    height: 8vh;
+    width: 8vw;
+}

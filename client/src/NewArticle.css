@@ -1,0 +1,30 @@
+.newText {
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 0, 0.2);
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.newTextTitle {
+    height: 5vh;
+    font-size: 3vh;
+    width: 50%;
+    left: 25%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.newTextContent {
+    height: 50vh;
+    font-size: 3vh;
+    width: 50%;
+    left: 25%;
+    margin-bottom: 5px;
+}
+
+.newTextSubmit {
+    width: 50%;
+    left: 25%;
+}
