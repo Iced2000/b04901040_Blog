@@ -1,4 +1,4 @@
-##How to use?
+# How to use?
 
 1. initialize `bash init.sh`
 2. Client : http://localhost:3000/
